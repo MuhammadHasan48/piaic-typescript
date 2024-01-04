@@ -48,8 +48,16 @@ let person1: person ={ // fresh object
    // a: "sad" // no extra property allowed
 }
 
-let person2: person = {// fresh object
+let person2 = {// fresh object
+    name: "hasan",
+    age: 18
 
 }
+
+
+ person2 = person1; //person1 os a stale object
+
+console.log(person2.name);
+
 
     
