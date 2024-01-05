@@ -3,11 +3,22 @@
 //     name:string,
 //     age:number
 // }
-let person1 = {
-    name: "hasan",
-    age: 18,
-    email: "abc",
-    // a: "sad" // no extra property allowed
+let std1 = {
+    name: "Faheem",
+    rollNumber: "PIAIC123",
 };
-let person2 = { // fresh object
+let teacher1 = {
+    name: "Zia",
+    experience: 10,
 };
+// let both:Student|Teacher = {
+//     name:"hasan",
+//     experience: 2,
+//     rollNumber:" 112"    
+// }   
+// let both:Student&Teacher= {
+//     name: "hasan",
+//     experience:2,
+//     rollNumber:"112"    
+// }
+// both.rollNumber;
