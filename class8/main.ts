@@ -61,29 +61,29 @@
 
 
 
-type Student = {
-    name: string,
-    rollNumber: string
-}
+// type Student = {
+//     name: string,
+//     rollNumber: string
+// }
 
 
-type Teacher = {
-    name: string,
-    experience: number
-}
+// type Teacher = {
+//     name: string,
+//     experience: number
+// }
 
 
 
 
-let std1: Student = {
-    name: "Faheem",
-    rollNumber: "PIAIC123",
-}
+// let std1: Student = {
+//     name: "Faheem",
+//     rollNumber: "PIAIC123",
+// }
 
-let teacher1: Teacher = {
-    name: "Zia",
-    experience: 10,
-}
+// let teacher1: Teacher = {
+//     name: "Zia",
+//     experience: 10,
+// }
 
 
 // let both:Student|Teacher = {
@@ -100,4 +100,25 @@ let teacher1: Teacher = {
 
 
 // both.rollNumber;
-    
+
+// let a:any = 10;
+
+// let b:boolean = true;
+// a = "hello world";
+// // a = b;
+// // a = b;
+// b = a;
+// console.log(b)
+
+
+// let a:unknown = "hello world";
+// let b:unknown = "hasan";
+
+
+// a = 10;
+// a = true;
+// a = {}
+
+// a = b;
+// b = a;
+
