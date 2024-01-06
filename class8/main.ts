@@ -144,6 +144,95 @@
 
 // //myName
 
+// let a:string = "hasan";
+// let b:unknown = 18;
+
+// //  a = b as number
 
 
 
+// let meetingDay:string = "monday";
+// if (meetingDay === "sunday"){
+//     console.log("no meeting");
+// }else if(meetingDay === "mondy"){
+//     console.log("meeting at 10 am");
+// }
+
+
+
+// enum
+
+// let day:"monday" | "tuesday" ///.....
+
+// enum days {
+//     sunday, // 0
+//     monday, // 1
+//     tuesday, // 2
+//     wednesday, // 3
+//     thursday, // 4
+//     friday, // 5
+//     saturday, // 6
+// }
+
+// let meetingDays:days = days.monday;
+
+
+// if(meetingDays === days.monday){
+//     console.log("meeting at 10 am")
+// }
+// else if(meetingDays === days.sunday){
+//     console.log("no meeting");
+// }
+
+
+
+
+
+
+
+
+
+
+//    enum operator {
+//     add,
+//     sub,
+//     mul,
+//     div
+
+//    }
+
+//    let cal:operator = operator.add;
+
+//    if(cal === operator.add){
+//     console.log(2+2);
+//    }
+
+
+// const enum color1 {red=1,green,blue}
+
+// var colorName: number = color1["green"]
+// console.log(colorName);
+
+
+
+// let fruits:string[] = ["apple","mango","banana"];
+
+// type person = {
+//     name:string;
+// }
+
+// // let p1:person = {
+// //     name: "hasan"
+// // }
+
+
+// let p:person[] = [
+//     {
+//         name: "hasan"
+//     },{
+//         name: "abdul ahad"
+//     },{
+//         name: "razeen"
+//     }
+// ]
+// console.log(p[1].name);
