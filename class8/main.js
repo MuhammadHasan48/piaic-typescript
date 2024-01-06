@@ -85,3 +85,16 @@
 // a = {}
 // a = b;
 // b = a;
+// let a:string = "hello world";
+// if(typeof a === "string" ){
+//     console.log("str");
+// }
+// else{
+//     console.log(a);
+// }
+// let a:unknown;
+// a = "hasan" as string;
+// //a
+// let myName:unknown = "Hasan";
+// console.log((myName as string).toUpperCase())
+// //myName
